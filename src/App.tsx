@@ -1,12 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import axios from 'axios';
-import SignUp from './views/SignUp';
+import Athentication from './views/Athentication';
 
 function App() {
   // useState
-  const [connection, setConnection] = useState<string>('');
+  //const [connection, setConnection] = useState<string>('');
   
   // connectionTest function
   /*
@@ -32,15 +29,7 @@ function App() {
   */
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {/* connection state */}
-        {/* <p>{connection}</p> */}
-      </header>
-      {/* SignUp Call */}
-      <SignUp />
-    </div>
+    <Athentication />
   );
 }
 
