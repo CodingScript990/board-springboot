@@ -1,5 +1,5 @@
 import './App.css';
-import Athentication from './views/Athentication';
+import MainLayout from './views/layouts/MainLayout';
 
 function App() {
   // useState
@@ -29,7 +29,7 @@ function App() {
   */
 
   return (
-    <Athentication />
+    <MainLayout />
   );
 }
 
